@@ -1,0 +1,70 @@
+@font-face {
+    font-family: paytone;
+    src: url(media/paytone.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    font-family: sans-serif;
+    background-image: url(media/bgg.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    
+}
+
+#container{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 60px;
+    
+}
+
+#display {
+    margin-top: 10vh;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #172D13;
+    
+}
+h1{
+    font-size: 4rem;
+    font-family: "paytone",sans-serif;
+    font-weight: 400;
+    letter-spacing: -.025em;
+
+}
+.time-text{
+    font-size: 2vw;
+    color: gray;
+   
+}
+
+#seconds, #milliSeconds ,#hours,#minutes{
+    font-size: 6vw;
+    font-family: "paytone",sans-serif;
+}
+
+
+button{
+    width: 180px;
+    padding:15px 10px;
+    border-radius: 30px;
+    background-color: #d76f30;
+    color: white;
+    margin: 30px;
+    cursor: pointer;
+    font-size: 1.2em;
+    border: none;
+    
+}
+
+button:hover{
+    transition: all 0.5 ease-in-out;
+    background-color: #ffffff;
+    color: #d76f30;
+}
